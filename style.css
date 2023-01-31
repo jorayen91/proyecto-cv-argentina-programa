@@ -175,5 +175,44 @@ h2{
 .p3 span{
     color: #ff9b00;
     padding-left: 20px;
-    
+
 }
+
+#miBoton{
+    background-color: #fbb03b;
+    border: none;
+    margin: 10px 10px 70px 0px;
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 19px;
+    cursor: pointer;
+}
+
+#miBoton:hover{
+    background-color: black;
+    color: #fbb03b;
+}
+
+/**
+Se me complico la parte full responsive 
+*/
+@media only screen and (max-width: 767px) {
+    .main {
+      width: 95%;
+    }
+    .izquierda {
+      width: 100%;
+      height: auto;
+      float: none;
+      margin-bottom: 20px;
+    }
+    .derecha {
+      width: 100%;
+      float: none;
+      margin-left: 0;
+    }
+    .perfil-img {
+      margin-left: 0;
+    }
+  }
